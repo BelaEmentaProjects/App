@@ -1,8 +1,3 @@
-:root {
-    --primary: #f1f1f1;
-    --secondary: #e7a406;
-}
-
 @font-face {
     font-family: logo;
     src: url(/resources/millenia-font/MilleniaPersonalUse-w1OB8.ttf);
@@ -11,6 +6,11 @@
 .bela-ementa-font {
     font-family: logo;
     font-size: 2rem;
+}
+
+:root {
+    --primary: #f1f1f1;
+    --secondary: #e7a406;
 }
 
 .font-size-title {
