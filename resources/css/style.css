@@ -1,0 +1,34 @@
+:root {
+    --primary: #f1f1f1;
+    --secondary: #e7a406;
+}
+
+@font-face {
+    font-family: logo;
+    src: url(/resources/millenia-font/MilleniaPersonalUse-w1OB8.ttf);
+}
+
+.bela-ementa-font {
+    font-family: logo;
+    font-size: 2rem;
+}
+
+.font-size-title {
+    font-size: 4rem;
+}
+
+.font-color-black {
+    color: black !important;
+}
+
+.body-background {
+    background-color: var(--primary);
+}
+
+.main-navbar {
+    background-color: var(--secondary);
+}
+
+.navbar-collapse {
+    flex-grow: unset !important
+}

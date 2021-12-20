@@ -14,75 +14,63 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
-
-
-
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-
     <!-- Custom styles for this template -->
     <link href="resources/css/restaurant.css" rel="stylesheet">
+
+    <link href="resources/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header>
-        <!-- Removed 'fixed-top' to nav class-->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <!-- Added 'd-flex' to <a> class -->
-                <a class="navbar-brand d-flex align-items-center" href="index.html">Bela Ementa</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Iniciar sessão</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Criar conta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Restaurante" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Procurar</button>
-                    </form>
+        <div class="row">
+            <!-- Removed 'fixed-top' to nav class-->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top main-navbar">
+                <div class="container-fluid col-11">
+                    <!-- Added 'd-flex' to <a> class -->
+                    <a class="navbar-brand d-flex align-items-center mt" href="index.html">
+                        <div class="bela-ementa-font">Bela Ementa</div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Iniciar sessão</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Criar conta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Restaurante"
+                                aria-label="Search">
+                            <button class="btn btn-warning" type="submit">Procurar</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light mt-4">
+        <div class="position-relative overflow-hidden p-3 p-md-5  m-lg-5 text-center bg-light mt-4">
 
-            <!-- Add restaurant background image -->
             <div class="col-md-5 p-lg-5 mx-auto my-5">
-                <h1 class="display-4 fw-normal">Mélita</h1>
+                <h1 class="display-4 fw-normal bela-ementa-font font-size-title">Mélita</h1>
             </div>
 
-            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="d-md-flex flex-md-equal w-200 my-md-3 ps-md-3">
                 <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div class="my-3 py-3">
                         <h2 class="display-5">Carne</h2>
@@ -90,41 +78,43 @@
                     </div>
                     <a href="details.html">
                         <div class="bg-light shadow-sm mx-auto"
-                            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                            <img src="resources/images/os-sagrados.jpg" class="img-fluid rounded float-start "
+                            style="width: 80%; height: 2vh; border-radius: 21px 21px 0 0;">
+                            <img src="resources/images/os-sagrados.jpg" class="img-fluid rounded float-start mb-2"
                                 alt="Os Sagrados's restaurant">
                         </div>
                     </a>
                 </div>
+
                 <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div class="my-3 p-3">
                         <h2 class="display-5">Peixe</h2>
                         <p class="lead">Sardinhas</p>
                     </div>
-                    <div class="bg-dark shadow-sm mx-auto"
-                        style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="resources/images/o-paraiso.jpg" class="img-fluid rounded float-start "
-                            alt="Os Sagrados's restaurant">
-                    </div>
+                    <a href="details.html">
+                        <div class="bg-dark shadow-sm mx-auto"
+                            style="width: 80%; height: 2vh; border-radius: 21px 21px 0 0;">
+                            <img src="resources/images/o-paraiso.jpg" class="img-fluid rounded float-start mb-2"
+                                alt="Os Sagrados's restaurant">
+                        </div>
+                    </a>
                 </div>
             </div>
 
-            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 mt-4">
                 <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div class="my-3 py-3">
                         <h2 class="display-5">Vegetariano</h2>
                         <p class="lead">Lasanha de espinafres</p>
                     </div>
-                    <div class="bg-light shadow-sm mx-auto"
-                        style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="resources/images/melita.jpg" class="img-fluid rounded float-start "
-                            alt="Os Sagrados's restaurant">
-                    </div>
+                    <a href="details.html">
+                        <div class="bg-light shadow-sm mx-auto"
+                            style="width: 80%; height: 2vh; border-radius: 21px 21px 0 0;">
+                            <img src="resources/images/melita-orig.jpg" class="img-fluid rounded float-start mb-2"
+                                alt="Os Sagrados's restaurant">
+                        </div>
+                    </a>
                 </div>
             </div>
-
-
-
 
     </main>
 
