@@ -1,0 +1,15 @@
+.bottom-right {
+    margin: 3vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.ms-2 {
+    margin-right: 2vw !important;
+    margin-left: 2vw !important;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
