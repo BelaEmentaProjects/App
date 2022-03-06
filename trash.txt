@@ -1,0 +1,106 @@
+/* <!-- 
+         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${restaurant.photos.photo_reference}&key=${key}'
+               class="img-fluid rounded float-start img-responsive" alt="Melita's restaurant">
+          --> */
+
+
+PHOTO REF = Aap_uECM0k79v4CSrZKgAIWuqQK1i30262UAdPgMJU - ZtbaPKByZiKsVarusSuy4illsB - xDTflCz0d7iVvwdDc_FT7RvjN9HhkL5dBEBjYbdG6JdMCXAoEjKEDPPJ9ROeXdNuuSX9SokVINNhCY - UlfBFCGmMmK3zg_BE09qCfckhnVftJl
+
+PHOTO EXP
+"photos": [
+    {
+        "height": 2358,
+        "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/116347671787906647320\"\u003eTelepizza Malveira\u003c/a\u003e"
+        ],
+        "photo_reference": "Aap_uEBFAh4CB6gcml-J4ccJf1EqC4_WRJupouwiGu9GDW-comnFeX9szoMByPsSE4NUVAQMxMZgXbJyPyHPgv8Kq23_iEGodQBx4wczxULb9FBQ0ZQPeLDNwGJoyXdpjM9LrORygAP-YgQly-vs-2MkiY5MS94ovh39XmwoXAHBL0addsXm",
+        "width": 3537
+    }
+]
+
+
+OPENING
+"opening_hours": {
+    "open_now": true
+
+
+
+
+
+
+
+
+GEOLOCATION BROWSER
+
+/* navigator.geolocation.getCurrentPosition(
+position => {
+console.log(position.coords.latitude);
+console.log(position.coords.longitude);
+},
+error => {
+console.log(error.message);
+}
+) */
+
+/* https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAFYvOo3Bg5Uy3zB0NPP-ibAhCMMYy7P2c&location=-33.8670522,151.1957362&radius=5000&type=restaurant */
+
+/* https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${restaurant.photo_reference}&key=${key} */
+
+
+
+/* let i = [{
+      "business_status": "OPERATIONAL",
+      "geometry": {
+         "location": {
+            "lat": -33.864458,
+            "lng": 151.2062952
+         },
+         "viewport": {
+            "northeast": {
+               "lat": -33.8630026197085,
+               "lng": 151.2075776802915
+            },
+            "southwest": {
+               "lat": -33.8657005802915,
+               "lng": 151.2048797197085
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": name,
+      "opening_hours": {
+         "open_now": open
+      },
+      "photos": [
+         {
+            "height": 608,
+            "html_attributions": [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/112581335421444049471\"\u003eAmora Hotel\u003c/a\u003e"
+            ],
+            "photo_reference": "Aap_uEAaPwDIUsQwey7uRlyjBMtWzly8CV61BepH-IRSDU3lPUzzlilCTZYGJahQY79aJdGfw_NO9xH1F4fK2IrlcpGgN-q0pFszBEQBMxuCVzoWvQ2WceY1NkGYKsQZVOrKe0cVFOBZ_Un1uOBIJk9Pp-iJPGRrGT3zaxknz6H-0sjrZFMY",
+            "width": 1080
+         }
+      ],
+      "place_id": id,
+      "plus_code": {
+         "compound_code": "46P4+6G Sydney NSW, Australia",
+         "global_code": "4RRH46P4+6G"
+      },
+      "price_level": 3,
+      "rating": 4.3,
+      "reference": "ChIJa51FEUGuEmsRIXRtDjLFQXM",
+      "scope": "GOOGLE",
+      "types": [
+         "spa",
+         "lodging",
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "user_ratings_total": 1867,
+      "vicinity": "11 Jamison Street, Sydney"
+   }] */

@@ -1,0 +1,957 @@
+[
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9407146,
+                "lng": -9.251906499999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9420491302915,
+                    "lng": -9.250563119708497
+                },
+                "southwest": {
+                    "lat": 38.9393511697085,
+                    "lng": -9.253261080291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Telepizza Malveira - Comida ao Domicílio",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2358,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/116347671787906647320\"\u003eTelepizza Malveira\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEBFAh4CB6gcml-J4ccJf1EqC4_WRJupouwiGu9GDW-comnFeX9szoMByPsSE4NUVAQMxMZgXbJyPyHPgv8Kq23_iEGodQBx4wczxULb9FBQ0ZQPeLDNwGJoyXdpjM9LrORygAP-YgQly-vs-2MkiY5MS94ovh39XmwoXAHBL0addsXm",
+                "width": 3537
+            }
+        ],
+        "place_id": "ChIJfRd1wQ4nHw0RNt01lOfC8NM",
+        "plus_code": {
+            "compound_code": "WPRX+76 Malveira, Portugal",
+            "global_code": "8CCGWPRX+76"
+        },
+        "rating": 4.2,
+        "reference": "ChIJfRd1wQ4nHw0RNt01lOfC8NM",
+        "scope": "GOOGLE",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 22,
+        "vicinity": "Intermarché, Estrada Nacional 8, Alto da Lagoa, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.93605679999999,
+                "lng": -9.2820403
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.93742628029149,
+                    "lng": -9.280656519708499
+                },
+                "southwest": {
+                    "lat": 38.93472831970849,
+                    "lng": -9.283354480291504
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+        "name": "bp",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2000,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/105880307799442197142\"\u003eBP\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uECntjIJBvqsjDuyWGUp83K2X-L5X6ljlT2Ui6-F-yb2yLg-UZ7NAvPy7GrIPzoCy7msZkb_HQdv3OWqpRvgnDopQIGBkf2hVezvFRegkbHEwPYZ99uYbbCxXCYUZa6eiGWrTcl1VfAmTuPG6QMT5wx25YdTSkN7cK0AmpUp_agGUzE",
+                "width": 2000
+            }
+        ],
+        "place_id": "ChIJRyxEp9fXHg0RncX1dZPWSCo",
+        "plus_code": {
+            "compound_code": "WPP9+C5 Malveira, Portugal",
+            "global_code": "8CCGWPP9+C5"
+        },
+        "rating": 4.6,
+        "reference": "ChIJRyxEp9fXHg0RncX1dZPWSCo",
+        "scope": "GOOGLE",
+        "types": [
+            "gas_station",
+            "atm",
+            "finance",
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 5,
+        "vicinity": "A21 PA BP-Tr, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9400613,
+                "lng": -9.251300199999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9414116302915,
+                    "lng": -9.249960369708496
+                },
+                "southwest": {
+                    "lat": 38.9387136697085,
+                    "lng": -9.252658330291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Telepizza",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3456,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/105627672921777388684\"\u003eMarketing e Comunicação Intermarché Malveira\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEAcEnxkuQrlc6-MWGO_becfWNeE1s-Ug-TcxWxYNFBFzWGI9Hjhudq2KiC3OGlJNXUD1Az8mKVc7eEpS-TVbenAqml5EK851Kl-yD1G7jAUZwJJgsw972hTiVYts9_Ctx2Ym2RazR52thxp7biyuznknETPuneRFNAZkYpG2j52ZLd2",
+                "width": 5184
+            }
+        ],
+        "place_id": "ChIJYWJhypPVHg0RONWvEAvzFMA",
+        "plus_code": {
+            "compound_code": "WPRX+2F Malveira, Portugal",
+            "global_code": "8CCGWPRX+2F"
+        },
+        "rating": 3.2,
+        "reference": "ChIJYWJhypPVHg0RONWvEAvzFMA",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 49,
+        "vicinity": "Intermarche En8, Lagoa 297, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.929835,
+                "lng": -9.248208999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9311769302915,
+                    "lng": -9.246837369708496
+                },
+                "southwest": {
+                    "lat": 38.9284789697085,
+                    "lng": -9.249535330291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Sushi Mish Mish",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/100156526943714760192\"\u003eSushi Mish Mish\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uECdAW7VKfDV61mDcNlagXcztKPCY-Mx5EqEOZ_xyDTPobHZxen5nGD1zGYo3-sP2oGLjFunPAvjjaaQTHgG8m_qzWO9BvLs-4cNZAbyTJlzhJKhwPJoJ3MJkz4b7H85V2Ah5NcqMfX2T5RIz7TiG_VHQSrdt674FBRPomZBdQ4OD0oO",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJNyqPDr3VHg0Rern5BLKGUCY",
+        "plus_code": {
+            "compound_code": "WQH2+WP Malveira, Portugal",
+            "global_code": "8CCGWQH2+WP"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJNyqPDr3VHg0Rern5BLKGUCY",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1772,
+        "vicinity": "291, Rua das Queimadas 1"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9291052,
+                "lng": -9.241444699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.93051458029149,
+                    "lng": -9.240157619708498
+                },
+                "southwest": {
+                    "lat": 38.92781661970849,
+                    "lng": -9.242855580291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Farnel Take Way",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1280,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/110194076723826973629\"\u003egi\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEBCel6Aks1HFqRof0uXY1WpLXMlD7tID3NrM61d2SQW1UMykep0aFY6M6SX0ZBjMPtZ6lrC2wSRMZY3931IM6LT1XxW-HLOyEFrqCj3pO1gcu2OYF6jbFrzzu6iUDWyviv0Gn7FGZz4gfap3xCK2VhC4lMlTeoekLUxZ0A2EaVx5a6h",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJO5fNk6PVHg0R71SKIPm7ReM",
+        "plus_code": {
+            "compound_code": "WQH5+JC Venda do Pinheiro, Portugal",
+            "global_code": "8CCGWQH5+JC"
+        },
+        "price_level": 1,
+        "rating": 4.4,
+        "reference": "ChIJO5fNk6PVHg0R71SKIPm7ReM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 122,
+        "vicinity": "Venda do Pinheiro"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.977793,
+                "lng": -9.273732999999998
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9791666302915,
+                    "lng": -9.272367869708498
+                },
+                "southwest": {
+                    "lat": 38.9764686697085,
+                    "lng": -9.275065830291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Quinta Vale da Carva",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/113372010253201282084\"\u003eQuinta Vale da Carva\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEB2WCJiWixARBSJR_tl0LoYH5W3gtkrd_Bp2ItboPA3nBFzhP-Sz3muxKmeRt0o2PKPKy8YoSoSX4F4eK-QknxOiNg-SL7s-bp5YbEVTIFYSjdUGTRobD7FkmOEk6SCqWksgmeDGCtuGokWfISnnwLA3eEZsavzm9-qDXnMnZeEge4Z",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJDYemSiIqHw0Rp6j-sJfz6YY",
+        "plus_code": {
+            "compound_code": "XPHG+4G Mafra, Portugal",
+            "global_code": "8CCGXPHG+4G"
+        },
+        "rating": 4.5,
+        "reference": "ChIJDYemSiIqHw0Rp6j-sJfz6YY",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 226,
+        "vicinity": "Estrada da Carapiteira, n. º 5, Mafra"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9188025,
+                "lng": -9.230142599999997
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9201827302915,
+                    "lng": -9.228670619708497
+                },
+                "southwest": {
+                    "lat": 38.9174847697085,
+                    "lng": -9.2313685802915
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Bom Prego",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3648,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/107234763552586849341\"\u003eBom Prego\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEAgkoi81Etau6H31x7r20CoJJebVkWF3Za2nYmnh-OoCJQqVXxeQj6xFHqdbxbRYBseWdiq69xR0Jc4lIWBgka54MPwAcmOCjouSVu36p0wphH3kuGuO6b1l6eebrSLslZIaJG5e7wC9hx5IA_E_7636B2b-N-99nPZOYNjE-dv0pW3",
+                "width": 5472
+            }
+        ],
+        "place_id": "ChIJh2b_xgPVHg0RK6UCmTmxT-0",
+        "plus_code": {
+            "compound_code": "WQ99+GW Venda do Pinheiro, Portugal",
+            "global_code": "8CCGWQ99+GW"
+        },
+        "price_level": 1,
+        "rating": 4.0,
+        "reference": "ChIJh2b_xgPVHg0RK6UCmTmxT-0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 368,
+        "vicinity": "Avenida 9 de Julho n21a, Venda do Pinheiro"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.95782850000001,
+                "lng": -9.316034100000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.95919008029151,
+                    "lng": -9.314574069708499
+                },
+                "southwest": {
+                    "lat": 38.95649211970851,
+                    "lng": -9.317272030291504
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Gazela da Murgeira",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1080,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/117368369015737059559\"\u003eCesar Anselmo de Castro\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEA7Lc6TCRXAfgnsnCYw8v97E0RYNVrIETwl1EXrot4ZAjgdWalzTLzW9zG2F3dmrfVMRapYd6AxqYtG207cWFIstbHPxlW1FFao527LIApr20EGWoQ_nEKNbSLzDsTGiPtA5o0nGxSlNl4exxmu9uytHy_gI0rIkHjtFKXKWBnQIcji",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJayMt6NEpHw0RYo3fAan3L8w",
+        "plus_code": {
+            "compound_code": "XM5M+4H Mafra, Portugal",
+            "global_code": "8CCGXM5M+4H"
+        },
+        "price_level": 1,
+        "rating": 4.1,
+        "reference": "ChIJayMt6NEpHw0RYo3fAan3L8w",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 267,
+        "vicinity": "9 Estrada antiga Nacional 211"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9311722,
+                "lng": -9.256399300000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9324867802915,
+                    "lng": -9.255051869708497
+                },
+                "southwest": {
+                    "lat": 38.92978881970851,
+                    "lng": -9.257749830291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Saloio",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3000,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/115352873383471791350\"\u003eRui Menezes\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEArYpcYWSHBBigISMgZ29JVmDBZQ6PVIVkKmlKNZc3woYpB-FpiRzfOskwdIbkbZ3Aerf-P07TmtA9cCFfHh0TbMTZfzdF0UPD_v9SnqERZcPSuVsFEWmq6UNmiOzWeEsJfddsThXIOCHoZynE4crZQrC9ajOf2oaMEnqrI5jMlv4Ev",
+                "width": 4000
+            }
+        ],
+        "place_id": "ChIJHUWDCsDVHg0RKrhiYl5_GQo",
+        "plus_code": {
+            "compound_code": "WPJV+FC Malveira, Portugal",
+            "global_code": "8CCGWPJV+FC"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJHUWDCsDVHg0RKrhiYl5_GQo",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 872,
+        "vicinity": "Rua Professor Armando Lucena nº22, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9318683,
+                "lng": -9.258794200000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9332149302915,
+                    "lng": -9.257450319708498
+                },
+                "southwest": {
+                    "lat": 38.93051696970851,
+                    "lng": -9.260148280291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "O Paraíso Dois",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3464,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/109549472930888851915\"\u003erent house\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEDaq3pCMCeJjZy_6AwGNBw8hx1J-23KWhyPDDAKeJ-DOXrEmX5o-y9NkigEeDqlpXqupLicNsIcqdl1q9Ckru91FgYVmY1cEfjmcxzDEu_tTIQdmci0Wy3ZCvVo4V9vcVEhSmuVEaRE9cJAQcq8pDZo8I9bYdVDAz_5sjOmgOVsByuT",
+                "width": 4618
+            }
+        ],
+        "place_id": "ChIJlfOvWTLVHg0R_fA9lPsyZ9E",
+        "plus_code": {
+            "compound_code": "WPJR+PF Malveira, Portugal",
+            "global_code": "8CCGWPJR+PF"
+        },
+        "rating": 4.2,
+        "reference": "ChIJlfOvWTLVHg0R_fA9lPsyZ9E",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 52,
+        "vicinity": "Rua dos Juncais 3B, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.93245570000001,
+                "lng": -9.257298600000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9337714302915,
+                    "lng": -9.255913169708499
+                },
+                "southwest": {
+                    "lat": 38.9310734697085,
+                    "lng": -9.258611130291504
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Mélita",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/110836584589174030109\"\u003eMélita\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEA20qIEOz50I9Ry3eRAl9Z-d5che3rBWUXueerp0jb3tiUoZW_4AA62rnE-p1ueS5zSvCdqHY_ItZfJdhLbBh23wxOgluMQ_xPkkRO-zmAPkhn_XwSqQb--XZGat7TFrkW4KA6QDtr8qWxQ3dYzkni6oABJQst68ePDGFn07GJTzZQt",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJ_7wJpurVHg0R-hbxBsQqBJ0",
+        "plus_code": {
+            "compound_code": "WPJV+X3 Malveira, Portugal",
+            "global_code": "8CCGWPJV+X3"
+        },
+        "price_level": 2,
+        "rating": 4.7,
+        "reference": "ChIJ_7wJpurVHg0R-hbxBsQqBJ0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 609,
+        "vicinity": "Largo da Feira 19, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9325748,
+                "lng": -9.2570684
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9339106302915,
+                    "lng": -9.255676719708498
+                },
+                "southwest": {
+                    "lat": 38.9312126697085,
+                    "lng": -9.258374680291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Pateo Da Cerveja",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3096,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/112307722366302413315\"\u003eRivadavia Souza Silva\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEDpAkYTDEY4dYApMqLij5UIGUUKDaKIJ8knq-0h-mk-_CWPgS5p8MpdNCoBaKitaMiYDpMclH7dKABiOF-ngeevh2rnAUgSE3M1UXWj7Jo0YL4KItct-BUVZfHUO4vKXER2SfKFt23ErL-gnlTwUXWUNnSu6vFqxcV0H8T0nJE-kA2l",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJT6BXr-rVHg0ROF_tRAiDnjM",
+        "plus_code": {
+            "compound_code": "WPMV+25 Malveira, Portugal",
+            "global_code": "8CCGWPMV+25"
+        },
+        "price_level": 1,
+        "rating": 4.5,
+        "reference": "ChIJT6BXr-rVHg0ROF_tRAiDnjM",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 25,
+        "vicinity": "Largo da Feira 23A, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9325692,
+                "lng": -9.257029599999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9339168802915,
+                    "lng": -9.255667119708498
+                },
+                "southwest": {
+                    "lat": 38.9312189197085,
+                    "lng": -9.258365080291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Mr. King Kebab & Pizza House",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/110024773669884116874\"\u003erobin singh torres vedras\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEAXpwBTwC91NLhFW8JB4MVHns_T9mFVYpvxrIgq8ceUQxewLktj2UtRi9a4KEUoIWtXb0R1q7pCNhODLgM0SSKt3VGdyEpsPzFdwvWGpHQnFrzu64Y-gmaOeFMmXRPc5vh9J29RKqPjS9UMiQIb_p9Rao4PuOl6Vth8L0wbPAe2WTsQ",
+                "width": 1080
+            }
+        ],
+        "place_id": "ChIJC0eQ4lbVHg0RudfnP-4WMDY",
+        "plus_code": {
+            "compound_code": "WPMV+25 Malveira, Portugal",
+            "global_code": "8CCGWPMV+25"
+        },
+        "rating": 4.6,
+        "reference": "ChIJC0eQ4lbVHg0RudfnP-4WMDY",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 33,
+        "vicinity": "Largo da Feira 23A, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.933061,
+                "lng": -9.2562865
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9344078802915,
+                    "lng": -9.254914519708498
+                },
+                "southwest": {
+                    "lat": 38.9317099197085,
+                    "lng": -9.257612480291503
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Oásis",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/113134347922291019434\"\u003eMario Pereira\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEAoeb964MZicDWjcOrlCNZ9kDPCB8HNX950ciE3e7SOqT_kUrI2Xl6kb6Xg0QKZpPPmQkOG8WPQPqilRjXuDtMC2QkmJDSGdW1iyFIuKSAYrsA0vqpww4jc-E7-0-aoreH-3Q_xqqGZFe0tUcNi8jf19JdLqbNdvHhz6cKgoOMay4xE",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJLcik2cbVHg0RSc68kzIPIX0",
+        "plus_code": {
+            "compound_code": "WPMV+6F Malveira, Portugal",
+            "global_code": "8CCGWPMV+6F"
+        },
+        "rating": 4.1,
+        "reference": "ChIJLcik2cbVHg0RSc68kzIPIX0",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "bakery",
+            "bar",
+            "liquor_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 472,
+        "vicinity": "Rua 1º de Maio 5, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9317078,
+                "lng": -9.258192999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.93302523029149,
+                    "lng": -9.256788169708496
+                },
+                "southwest": {
+                    "lat": 38.9303272697085,
+                    "lng": -9.259486130291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Os Sagrados",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2336,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/104633383624984176533\"\u003eDiana Louro\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEC1j5w8eWAUqiWF1GBMOyLsvLwXplRCNanF20eZU5OgNYgEZlkWsm7DppFwR0o_A_677ooWnHIn1ESch9BiX9MbmxcRJItQ-Gv4QqsvhFk09hFieZEKg258Ia3sHAVmrLN-mejcSFVbbDO8gKwiqi2bTi9_m0VdJCJ8pZRlfNttVHvV",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJLet4I8DVHg0RZvpbnYBV3QU",
+        "plus_code": {
+            "compound_code": "WPJR+MP Malveira, Portugal",
+            "global_code": "8CCGWPJR+MP"
+        },
+        "rating": 4.3,
+        "reference": "ChIJLet4I8DVHg0RZvpbnYBV3QU",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 577,
+        "vicinity": "Rua Heróis 9 de Abril 15, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9316115,
+                "lng": -9.258291399999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9329824302915,
+                    "lng": -9.256950169708498
+                },
+                "southwest": {
+                    "lat": 38.9302844697085,
+                    "lng": -9.259648130291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Restaurante Montenegro",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2736,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/112278980180881300932\"\u003eRestaurante Montenegro\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uED7XUtWlZePnULG1Uz9xrBWRbmOR0FtzKMAB2GeYNPKU1CjHbVamNA5LBzulbvFjU-sJPSLoqJnIyaP25LjQfZI6ZeK_LLxlvCXUXmY1dPWWrxmiyOlptE1bTTPhxZOa95EFzS0l80UbOtuJzh1cyrP107qdqW0rOzsXsAhITu8vDZx",
+                "width": 3313
+            }
+        ],
+        "place_id": "ChIJozbHqL_VHg0RiKJzf9m7jXc",
+        "plus_code": {
+            "compound_code": "WPJR+JM Malveira, Portugal",
+            "global_code": "8CCGWPJR+JM"
+        },
+        "price_level": 1,
+        "rating": 4.3,
+        "reference": "ChIJozbHqL_VHg0RiKJzf9m7jXc",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 323,
+        "vicinity": "Rua dos Juncais, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9316026,
+                "lng": -9.258305700000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9329782802915,
+                    "lng": -9.256950169708498
+                },
+                "southwest": {
+                    "lat": 38.9302803197085,
+                    "lng": -9.259648130291501
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Restaurante O Montenegro",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1883,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/107335754013648862703\"\u003eRestaurante O Montenegro\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEB61xHBdDELIa7naVyJahmXd25K7cH4_xCHttjEXrWMg6-LScHgq4cD0nw8CYXePcm463_fiudkw3K1xq1TytWTIIdWBsa8oK0GhVghhVPPcUMKgzpgU0AZ_8zeuzzhLIuL3xcx_CBP4l8C_0PdcLovzhXQBPlRspUMbtK4_sb4eOKh",
+                "width": 2503
+            }
+        ],
+        "place_id": "ChIJoxgpTKXVHg0RO642Fui6uW4",
+        "plus_code": {
+            "compound_code": "WPJR+JM Malveira, Portugal",
+            "global_code": "8CCGWPJR+JM"
+        },
+        "rating": 4.5,
+        "reference": "ChIJoxgpTKXVHg0RO642Fui6uW4",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4,
+        "vicinity": "Rua Heróis 9 de Abril, Malveira"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 38.9295122,
+                "lng": -9.264095499999998
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 38.9308603302915,
+                    "lng": -9.262698869708498
+                },
+                "southwest": {
+                    "lat": 38.9281623697085,
+                    "lng": -9.265396830291502
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "O Cantinho dos Grelhados",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1080,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/107131353852059688100\"\u003eFernando Almeida\u003c/a\u003e"
+                ],
+                "photo_reference": "Aap_uEDiUoJ7zjAdj56ivHoY65K9x1in5sS48gShy2E7xJf-Kwby7TRGl31Qh0zP8Eo0Cy75X5ZDC3qlWxejYkigIFYejb9MN8gdmGtGm0P7p6oBPzRTSwSVPag5DRpKaOEXGnCYZl_Qx_2D7BPb-kMLdHCPIS_75VhagQHONLIM-lYoSKJf",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJm-MyTsLVHg0RUwbEOR4HA5s",
+        "plus_code": {
+            "compound_code": "WPHP+R9 Malveira, Portugal",
+            "global_code": "8CCGWPHP+R9"
+        },
+        "price_level": 1,
+        "rating": 4.3,
+        "reference": "ChIJm-MyTsLVHg0RUwbEOR4HA5s",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 233,
+        "vicinity": "Rua Nossa Senhora dos Remédios 7, Malveira"
+    }
+]

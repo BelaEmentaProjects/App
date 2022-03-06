@@ -48,9 +48,9 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Restaurante"
+                            <input class="form-control me-2" id="filterName" type="search" placeholder="Restaurante"
                                 aria-label="Search">
-                            <button class="btn btn-warning" type="submit">Procurar</button>
+                            <!-- <button class="btn btn-warning" type="submit">Procurar</button> -->
                         </form>
                     </div>
                 </div>
@@ -60,158 +60,89 @@
 
 
     <main>
+        <!-- Filters -->
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Filtros</h1>
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <div class="form-check">
+                        <input class="form-check-input restaurant-open" type="checkbox" value="" id="restaurant-open">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Aberto
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input restaurant-closed" type="checkbox" value=""
+                            id="restaurant-closed">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Fechado
+                        </label>
+                    </div>
+                </div>
+                <label for="customRange1" class="form-label">Rating</label>
+                <input type="range" class="form-range" id="filter-rating" min="0" max="5" value="4">
+            </div>
+        </div>
+
+        <!-- Add Restaurant -->
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Restaurante</h1>
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <form class="d-flex form-restaurant">
+                        <div class="form-check">
+                            <input class="form-check-input new-restaurant-open" type="checkbox" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Aberto
+                            </label>
+                        </div>
+                        <input class="form-control me-2 new-restaurant-name" type="search" placeholder="Nome"
+                            aria-label="Search">
+                        <button class="btn btn-warning">Adicionar</button>
+                    </form>
+                    <button class="btn btn-warning" id="update-restaurant-btn">Atualizar</button>
+                </div>
+                <label for="customRange1" class="form-label">Rating</label>
+                <input type="range" class="form-range edit-rating" id="customRange1" min="0" max="5" value="2">
+            </div>
+        </div>
+        </div>
+
         <div class="album py-5 bg-light ms-2">
             <div class="container mt-4">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 border-right-6 border-left-6 mt-2">
 
-
-                    <!-- Mélita Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/melita.jpg"
-                                    class="img-fluid rounded float-start img-responsive" alt="Melita's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">Mélita</medium>
-                                    </a>
-                                    <small class="text-muted">5 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- O Paraíso Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/o-paraiso.jpg"
-                                    class="img-fluid rounded float-start img-responsive" alt="O Paraiso's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">O Paraíso</medium>
-                                    </a>
-                                    <small class="text-muted">6 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Oásis Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/oasis.jpg"
-                                    class="img-fluid rounded float-start img-responsive" alt="Oasis's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">Oásis</medium>
-                                    </a>
-                                    <small class="text-muted">10 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mish Mishs's Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/mishmish.jpg"
-                                    class="img-fluid rounded float-start img-responsive" alt="Mish Mishs's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">Mish-Mish</medium>
-                                    </a>
-                                    <small class="text-muted">12 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Os Sagrados's Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/os-sagrados.jpg"
-                                    class="img-fluid rounded float-start img-responsive" alt="Os Sagrados's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">Os Sagrados</medium>
-                                    </a>
-                                    <small class="text-muted">15 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- O Montenegro's Card -->
-                    <div class="col">
-                        <div class="card shadow-sm w-100 bg-light border mx-auto">
-                            <a href="restaurant.html">
-                                <img src="resources/images/o-montenegro.jpg"
-                                    class="img-fluid rounded float-start img-responsive"
-                                    alt="O Montenegro's restaurant">
-                            </a>
-
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="restaurant.html" class="text-decoration-none">
-                                        <medium class="text-muted">O Montenegro</medium>
-                                    </a>
-                                    <small class="text-muted">16 mins de distância</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                <!-- Cards -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 border-right-6 border-left-6 mt-2"
+                    id="cards">
                 </div>
             </div>
-        </div>
-        </div>
 
-        <!-- Red location icon bottom right-->
-        <a href="map.html">
-            <div class="bottom-right">
-                <!-- changed "currentColor" to "red"-->
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="red" class="bi bi-geo-alt-fill"
-                    viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                </svg>
-            </div>
-        </a>
+            <!-- Red location icon bottom right-->
+            <a href="map.html">
+                <div class="bottom-right">
+                    <!-- changed "currentColor" to "red"-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="red" class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                </div>
+            </a>
+        </div>
     </main>
-
 
     <footer class="text-muted py-5">
         <div class="container">
             <p class="mb-1 text-center">Aviso Legal – Política de Privacidade – Termos e Condições – Política de Cookies
-                – Resolução
-                de litígios</p>
+                – Resolução de litígios</p>
         </div>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
-
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="module" src="resources/js/index.js"></script>
 </body>
 
 </html>
