@@ -1,8 +1,8 @@
 import { createStore } from 'redux';
-import { reducer } from './reducer'
+import { reducer } from './reducer';
 
 const initialState = {
-    restaurants: [],
-}
+  restaurants: [],
+};
 
 export const store = createStore(reducer, initialState);
