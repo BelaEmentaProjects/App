@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react';
-import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+import { useRestaurants } from '../hooks/useRestaurants';
 
 export default function Restaurant() {
-  const { place_id } = useParams();
-  const data = useSelector((state) => state.restaurants);
+  const { id } = useParams();
+  const data = useRestaurants();
 
   /* Like button */
   const [like, setLike] = useState(false);
@@ -16,14 +16,16 @@ export default function Restaurant() {
   const ShowRestaurant = () => (
     <>
       {data
-        .filter((restaurant) => restaurant.place_id === place_id)
+        .filter((restaurant) => restaurant.location_id === id)
         .map((restaurant) => {
-          const key = restaurant.place_id;
+          const location_id = restaurant.location_id;
+          const photo = restaurant.photo?.images;
+
           return (
-            <Fragment key={key}>
+            <Fragment key={location_id}>
               <div className="col-md-6">
                 <img
-                  src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${restaurant.photos[0].photoURL}&key=AIzaSyAFYvOo3Bg5Uy3zB0NPP-ibAhCMMYy7P2c`}
+                  src={photo?.medium?.url || photo?.large?.url}
                   alt={`${restaurant.name}'s restaurant`}
                   height="400px"
                   width="400px"
@@ -34,26 +36,26 @@ export default function Restaurant() {
                 <h1 className="display-5">{restaurant.name}</h1>
                 {/* Restaurants address */}
                 <h4 className="text-uppercase text-black-50">
-                  {restaurant.vicinity}
+                  {restaurant.address}
                 </h4>
                 {/* Restaurants rating */}
                 <p className="lead fw-bolder">
-                  Classificação {restaurant.rating}
+                  Ranking {restaurant.raw_ranking}
                   <i className="fa fa-star"></i>
                 </p>
                 <h3 className="display-6 fw-bold my-4">
-                  {restaurant.opening_hours.open_now ? 'Aberto' : 'Fechado'}
+                  {restaurant.opening_hours.open_now ? 'Open' : 'Closed'}
                 </h3>
+
                 {/* Restaurants type badges */}
-                {restaurant.types.map((type) => {
-                  return (
-                    <>
-                      <span className="badge rounded-pill bg-dark me-2">
-                        {type}
-                      </span>
-                    </>
-                  );
-                })}
+                <>
+                  <span className="badge rounded-pill bg-dark me-2">
+                    {restaurant.category.name}
+                  </span>
+                  <span className="badge rounded-pill bg-dark me-2">
+                    {restaurant.subcategory.name}
+                  </span>
+                </>
               </div>
               <div className="col-sm-2 py-2">
                 <button

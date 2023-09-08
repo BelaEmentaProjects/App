@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { useRestaurants } from '../hooks/useRestaurants';
 
 export default function Restaurants() {
-  const data = useSelector((state) => state.restaurants);
+  const data = useRestaurants();
 
   const ShowRestaurants = () => {
     return (
