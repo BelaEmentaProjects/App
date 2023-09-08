@@ -8,41 +8,44 @@ export default function Restaurants() {
   const ShowRestaurants = () => {
     return (
       <>
-        {data.map((restaurant) => {
-          const key = restaurant.place_id;
-          return (
-            <Fragment key={key}>
-              <div className="col-md-3">
-                {/* Restaurants Cards */}
-                <div className="card text-center" key={key}>
-                  <NavLink to={`/restaurants/${restaurant.place_id}`}>
-                    <img
-                      src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${restaurant.photos[0].photo_reference}&key=AIzaSyAFYvOo3Bg5Uy3zB0NPP-ibAhCMMYy7P2c`}
-                      className="card-img-top"
-                      alt={`${restaurant.name}'s restaurant`}
-                    />
-                  </NavLink>
+        {Array.isArray(data) &&
+          data.map((restaurant) => {
+            const location_id = restaurant.location_id;
+            const photo = restaurant.photo?.images;
 
-                  <div className="card-body">
-                    <h5 className="card-title fw-bold ">{restaurant.name}</h5>
-                    <p className="card-text">
-                      {restaurant.opening_hours.open_now ? 'Aberto' : 'Fechado'}
-                    </p>
-                    <p className="card-text fw-bold">
-                      {restaurant.rating}
-                      <i className="fa fa-star"></i>
-                    </p>
-                    <NavLink to={`/restaurants/${restaurant.place_id}`}>
-                      <button className="btn btn-warning me-2" type="submit">
-                        Ver mais
-                      </button>
+            return (
+              <Fragment key={location_id}>
+                <div className="col-md-3">
+                  {/* Restaurants Cards */}
+                  <div className="card text-center" key={location_id}>
+                    <NavLink to={`/restaurants/${location_id}`}>
+                      <img
+                        src={photo?.small?.url || photo?.medium?.url}
+                        className="card-img-top"
+                        alt={`${restaurant.name}'s restaurant`}
+                      />
                     </NavLink>
+
+                    <div className="card-body">
+                      <h5 className="card-title fw-bold ">{restaurant.name}</h5>
+                      <p className="card-text">
+                        {restaurant.is_closed ? 'Aberto' : 'Fechado'}
+                      </p>
+                      <p className="card-text fw-bold">
+                        {restaurant.raw_ranking}
+                        <i className="fa fa-star"></i>
+                      </p>
+                      <NavLink to={`/restaurants/${location_id}`}>
+                        <button className="btn btn-warning me-2" type="submit">
+                          Ver mais
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Fragment>
-          );
-        })}
+              </Fragment>
+            );
+          })}
       </>
     );
   };

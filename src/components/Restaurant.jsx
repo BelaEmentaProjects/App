@@ -23,7 +23,7 @@ export default function Restaurant() {
             <Fragment key={key}>
               <div className="col-md-6">
                 <img
-                  src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${restaurant.photos[0].photo_reference}&key=AIzaSyAFYvOo3Bg5Uy3zB0NPP-ibAhCMMYy7P2c`}
+                  src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${restaurant.photos[0].photoURL}&key=AIzaSyAFYvOo3Bg5Uy3zB0NPP-ibAhCMMYy7P2c`}
                   alt={`${restaurant.name}'s restaurant`}
                   height="400px"
                   width="400px"

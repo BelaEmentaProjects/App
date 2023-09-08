@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Restaurants from './Restaurants';
+import axios from 'axios';
+import { updateRestaurants } from '../store';
 
 export default function Body() {
   const dispatch = useDispatch();
@@ -8,14 +10,16 @@ export default function Body() {
   useEffect(() => {
     (async function () {
       try {
-        const response = await fetch('assets/data.json');
-        const json = await response.json();
-        dispatch({
-          type: 'GET_RESTAURANTS',
-          payload: json,
+        axios.get('assets/rapidAPIexample.json').then((response) => {
+          // Dispatch the transformed data to Redux Store
+          dispatch(updateRestaurants(response.data));
+          console.log(
+            '🚀 ~ file: Body.jsx:16 ~ axios.get ~ response.data:',
+            response.data,
+          );
         });
       } catch (error) {
-        console.log('ocorreu um erro');
+        console.log('Error fetching data: ', error);
       }
     })();
   });
