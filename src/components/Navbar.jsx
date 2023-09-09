@@ -29,7 +29,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item fw-bold">
                 <NavLink className="nav-link" to="/restaurants">
-                  Restaurantes
+                  Restaurants
                 </NavLink>
               </li>
             </ul>
