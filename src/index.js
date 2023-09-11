@@ -6,8 +6,11 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import './resources/css/style.css';
 import { BrowserRouter } from 'react-router-dom';
 
-const basename =
-  process.env.NODE_ENV === 'production' ? process.env.REACT_APP_BASENAME : '';
+console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('REACT_APP_BASENAME:', process.env.REACT_APP_BASENAME);
+
+const isProduction = process.env.NODE_ENV === 'production';
+const basename = isProduction ? process.env.REACT_APP_BASENAME : '';
 
 console.log('Basename:', basename);
 

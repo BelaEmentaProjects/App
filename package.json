@@ -6,7 +6,9 @@
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
     "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
@@ -28,7 +30,7 @@
     "prettier": "^3.0.3"
   },
   "scripts": {
-    "start": "REACT_APP_HOMEPAGE=$REACT_APP_HOMEPAGE_DEV react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -69,5 +71,5 @@
       "eslint --fix"
     ]
   },
-  "homepage": "https://belaementaprojects.github.io/App"
+  "homepage": ""
 }

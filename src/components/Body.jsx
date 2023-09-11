@@ -29,7 +29,7 @@ export default function Body() {
       <div className="hero">
         <div className="card bg-dark text-white border-0">
           <img
-            src="/assets/images/background.png"
+            src={process.env.PUBLIC_URL + '/assets/images/background.png'}
             className="card-img"
             alt="Background"
             height="550px"
