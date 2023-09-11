@@ -6,12 +6,17 @@ export function useRestaurant(id) {
 
   useEffect(() => {
     // Replace with your actual API endpoint
-    fetch(`/restaurants/${id}`)
+    fetch(`http://localhost:3002/restaurants/${id}`)
       .then((response) => response.json())
       .then((data) => {
+        console.log('🚀 ~ file: useRestaurant.jsx:12 ~ .then ~ data:', data);
         setRestaurant(data);
       })
       .catch((error) => {
+        console.log(
+          '🚀 ~ file: useRestaurant.jsx:16 ~ useEffect ~ error:',
+          error,
+        );
         setError(error);
       });
   }, [id]);

@@ -12,6 +12,7 @@ export default function Restaurants() {
           data.map((restaurant) => {
             const photo = restaurant.photo?.images;
             const restaurant_id = restaurant.location_id;
+
             return (
               <Fragment key={restaurant_id}>
                 <div className="col-md-3">

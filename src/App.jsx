@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import Body from './components/Body';
@@ -12,9 +12,9 @@ function App() {
       <Provider store={store}>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Body />} />
-          <Route exact path="/restaurants" element={<Restaurants />} />
-          <Route exact path="/restaurants/:place_id" element={<Restaurant />} />
+          <Route path="/" element={<Body />} />
+          <Route path="restaurants" element={<Restaurants />} />
+          <Route path="restaurants/:restaurant_id" element={<Restaurant />} />
         </Routes>
       </Provider>
     </>

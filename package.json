@@ -22,18 +22,21 @@
     "@testing-library/user-event": "^14.4.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "gh-pages": "^6.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "REACT_APP_HOMEPAGE=$REACT_APP_HOMEPAGE_DEV react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,json,css}'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -65,5 +68,6 @@
       "prettier --write",
       "eslint --fix"
     ]
-  }
+  },
+  "homepage": "https://belaementaprojects.github.io/App"
 }

@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom';
 import { useRestaurant } from '../hooks/useRestaurant';
 
 export default function Restaurant() {
-  const { id } = useParams();
-  console.log('🚀 ~ file: Restaurant.jsx:7 ~ Restaurant ~ id:', id);
-  const { restaurant, error } = useRestaurant(id);
+  const { restaurant_id } = useParams();
+  console.log('🚀 ~ file: Restaurant.jsx:7 ~ Restaurant ~ id:', restaurant_id);
+  const { restaurant, error } = useRestaurant(restaurant_id);
   console.log(
     '🚀 ~ file: Restaurant.jsx:8 ~ Restaurant ~ restaurant:',
     restaurant,
@@ -31,7 +31,7 @@ export default function Restaurant() {
   const ShowRestaurant = () => {
     return (
       <>
-        <Fragment key={id}>
+        <Fragment key={restaurant_id}>
           <div className="col-md-6">
             <img
               src={photo?.medium?.url || photo?.large?.url}
