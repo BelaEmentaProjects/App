@@ -10,15 +10,17 @@ export default function Body() {
   useEffect(() => {
     (async function () {
       try {
-        axios.get('http://localhost:3002/restaurants').then((response) => {
-          // Dispatch the transformed data to Redux Store
-          // Non mocked API (dispatch(updateRestaurants(response.data.results.data));
-          dispatch(updateRestaurants(response.data.data));
-          console.log(
-            '🚀 ~ file: Body.jsx:16 ~ axios.get ~ response.data:',
-            response.data,
-          );
-        });
+        axios
+          .get('https://api-git-main-jndgoncalves.vercel.app/restaurants')
+          .then((response) => {
+            // Dispatch the transformed data to Redux Store
+            // Non mocked API (dispatch(updateRestaurants(response.data.results.data));
+            dispatch(updateRestaurants(response.data.data));
+            console.log(
+              '🚀 ~ file: Body.jsx:16 ~ axios.get ~ response.data:',
+              response.data,
+            );
+          });
       } catch (error) {
         console.log('Error fetching data: ', error);
       }
