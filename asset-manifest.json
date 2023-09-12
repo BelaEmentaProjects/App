@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BelaEmenta-APP/static/css/main.e67d7db5.css",
-    "main.js": "/BelaEmenta-APP/static/js/main.82f6006c.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/BelaEmenta-APP/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/MilleniaPersonalUse-w1OB8.ttf": "/BelaEmenta-APP/static/media/MilleniaPersonalUse-w1OB8.e06eafb747e18f25a9ac.ttf",
-    "static/media/fontawesome-webfont.eot": "/BelaEmenta-APP/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/BelaEmenta-APP/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/BelaEmenta-APP/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/BelaEmenta-APP/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/BelaEmenta-APP/index.html",
-    "main.e67d7db5.css.map": "/BelaEmenta-APP/static/css/main.e67d7db5.css.map",
-    "main.82f6006c.js.map": "/BelaEmenta-APP/static/js/main.82f6006c.js.map"
+    "main.css": "/static/css/main.e006a8ca.css",
+    "main.js": "/static/js/main.3b98e663.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/MilleniaPersonalUse-w1OB8.ttf": "/static/media/MilleniaPersonalUse-w1OB8.e06eafb747e18f25a9ac.ttf",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.e006a8ca.css.map": "/static/css/main.e006a8ca.css.map",
+    "main.3b98e663.js.map": "/static/js/main.3b98e663.js.map"
   },
   "entrypoints": [
-    "static/css/main.e67d7db5.css",
-    "static/js/main.82f6006c.js"
+    "static/css/main.e006a8ca.css",
+    "static/js/main.3b98e663.js"
   ]
 }
