@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/App/static/css/main.846b00b9.css",
-    "main.js": "/App/static/js/main.403f6343.js",
+    "main.js": "/App/static/js/main.c80bf226.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/App/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/MilleniaPersonalUse-w1OB8.ttf": "/App/static/media/MilleniaPersonalUse-w1OB8.e06eafb747e18f25a9ac.ttf",
     "static/media/fontawesome-webfont.eot": "/App/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,10 +10,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/App/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/App/index.html",
     "main.846b00b9.css.map": "/App/static/css/main.846b00b9.css.map",
-    "main.403f6343.js.map": "/App/static/js/main.403f6343.js.map"
+    "main.c80bf226.js.map": "/App/static/js/main.c80bf226.js.map"
   },
   "entrypoints": [
     "static/css/main.846b00b9.css",
-    "static/js/main.403f6343.js"
+    "static/js/main.c80bf226.js"
   ]
 }
