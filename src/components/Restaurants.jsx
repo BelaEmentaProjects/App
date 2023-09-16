@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useRestaurants } from '../hooks/useRestaurants';
 
 export default function Restaurants() {
@@ -14,36 +14,34 @@ export default function Restaurants() {
             const restaurant_id = restaurant.location_id;
 
             return (
-              <Fragment key={restaurant_id}>
-                <div className="col-md-3">
-                  {/* Restaurants Cards */}
-                  <div className="card text-center" key={restaurant_id}>
-                    <NavLink to={`/restaurants/${restaurant_id}`}>
-                      <img
-                        src={photo?.small?.url || photo?.medium?.url}
-                        className="card-img-top"
-                        alt={`${restaurant.name}'s restaurant`}
-                      />
-                    </NavLink>
+              <div className="col-md-3" key={restaurant_id}>
+                {/* Restaurants Cards */}
+                <div className="card text-center">
+                  <Link to={`/restaurant/${restaurant_id}`}>
+                    <img
+                      src={photo?.small?.url || photo?.medium?.url}
+                      className="card-img-top"
+                      alt={`${restaurant.name}'s restaurant`}
+                    />
+                  </Link>
 
-                    <div className="card-body">
-                      <h5 className="card-title fw-bold ">{restaurant.name}</h5>
-                      <p className="card-text">
-                        {restaurant.is_closed ? 'Open' : 'Closed'}
-                      </p>
-                      <p className="card-text fw-bold">
-                        {restaurant.raw_ranking}
-                        <i className="fa fa-star"></i>
-                      </p>
-                      <NavLink to={`/restaurants/${restaurant_id}`}>
-                        <button className="btn btn-warning me-2" type="submit">
-                          More info
-                        </button>
-                      </NavLink>
-                    </div>
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold ">{restaurant.name}</h5>
+                    <p className="card-text">
+                      {restaurant.is_closed ? 'Open' : 'Closed'}
+                    </p>
+                    <p className="card-text fw-bold">
+                      {restaurant.rating}
+                      <i className="fa fa-star"></i>
+                    </p>
+                    <Link to={`/restaurant/${restaurant_id}`}>
+                      <button className="btn btn-warning me-2" type="submit">
+                        More info
+                      </button>
+                    </Link>
                   </div>
                 </div>
-              </Fragment>
+              </div>
             );
           })}
       </>

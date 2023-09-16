@@ -11,7 +11,8 @@ export default function Body() {
     (async function () {
       try {
         axios
-          .get('https://api-git-main-jndgoncalves.vercel.app/restaurants')
+          // .get('https://api-git-main-jndgoncalves.vercel.app/restaurants')
+          .get('http://localhost:3002/restaurants')
           .then((response) => {
             // Dispatch the transformed data to Redux Store
             // Non mocked API (dispatch(updateRestaurants(response.data.results.data));

@@ -37,7 +37,6 @@
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,json,css}'",
     "prepare": "husky install",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -71,5 +70,5 @@
       "eslint --fix"
     ]
   },
-  "homepage": "https://jndgoncalves.github.io/BelaEmenta-APP/"
+  "homepage": ""
 }

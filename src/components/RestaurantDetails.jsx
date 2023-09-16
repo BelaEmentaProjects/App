@@ -1,17 +1,16 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
-import { useRestaurant } from '../hooks/useRestaurant';
+import { useRestaurantDetails } from '../hooks/useRestaurantDetails';
 
-export default function Restaurant() {
+export default function RestaurantDetails() {
   const { restaurant_id } = useParams();
   console.log('🚀 ~ file: Restaurant.jsx:7 ~ Restaurant ~ id:', restaurant_id);
-  const { restaurant, error } = useRestaurant(restaurant_id);
+
+  const { restaurant, error } = useRestaurantDetails(restaurant_id);
   console.log(
     '🚀 ~ file: Restaurant.jsx:8 ~ Restaurant ~ restaurant:',
     restaurant,
   );
-  // const location_id = restaurant.location_string;
-  const photo = restaurant.photo?.images?.large;
 
   if (error) {
     return <div>Something went wrong...</div>;
@@ -29,6 +28,9 @@ export default function Restaurant() {
   // };
 
   const ShowRestaurant = () => {
+    // const location_id = restaurant.location_string;
+    const photo = restaurant.photo?.images?.large;
+
     return (
       <>
         <Fragment key={restaurant_id}>
@@ -49,20 +51,20 @@ export default function Restaurant() {
             </h4>
             {/* Restaurants rating */}
             <p className="lead fw-bolder">
-              Ranking {restaurant.raw_ranking}
+              Rating {restaurant.rating}
               <i className="fa fa-star"></i>
             </p>
             <h3 className="display-6 fw-bold my-4">
-              {restaurant.opening_hours.open_now ? 'Open' : 'Closed'}
+              {restaurant.open_now_text ? 'Open' : 'Closed'}
             </h3>
 
             {/* Restaurants type badges */}
             <>
               <span className="badge rounded-pill bg-dark me-2">
-                {restaurant.category.name}
+                {restaurant?.category?.name}
               </span>
               <span className="badge rounded-pill bg-dark me-2">
-                {restaurant.subcategory.name}
+                {restaurant?.subcategory?.name}
               </span>
             </>
           </div>
